@@ -1,0 +1,4 @@
+# @ is a shorthand for the current mod id, which is mcalt. E.g: tile.@.redclay.name
+
+tile.@.ashen_planks.name=Ashen Planks
+tile.@.ashen_log.name=Ashen Log
