@@ -1,5 +1,6 @@
 package com.kingjacob.mcalt;
 
+import net.minecraft.block.Block;
 import net.modificationstation.stationapi.api.mod.entrypoint.Entrypoint;
 import net.modificationstation.stationapi.api.util.Namespace;
 import net.modificationstation.stationapi.api.util.Null;

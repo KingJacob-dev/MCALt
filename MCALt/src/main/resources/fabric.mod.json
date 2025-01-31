@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "mcalt",
-  "version": "1.0.0",
+  "version": "25w05a",
   "name": "MCAlt",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "An alternate timeline mod made for Beta 1.7.3",
   "authors": [
     "KingJacob"
   ],
@@ -19,10 +19,12 @@
   "entrypoints": {
     "stationapi:event_bus": [
       "com.kingjacob.mcalt.events.init.InitListener",
-      "com.kingjacob.mcalt.events.init.BlockListener"
+      "com.kingjacob.mcalt.events.init.MCAltBlocks",
+      "com.kingjacob.mcalt.events.init.MCAltItems",
+      "com.kingjacob.mcalt.events.init.MCAltRecipes"
     ],
     "stationapi:event_bus_client": [
-      "com.kingjacob.mcalt.events.init.TextureListener"
+      "com.kingjacob.mcalt.events.init.MCAltTextures"
     ],
     "stationapi:event_bus_server": [
     ]

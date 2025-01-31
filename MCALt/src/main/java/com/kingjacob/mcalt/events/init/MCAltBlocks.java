@@ -10,22 +10,22 @@ import net.modificationstation.stationapi.api.template.block.TemplateBlock;
 import net.modificationstation.stationapi.api.util.Namespace;
 import net.modificationstation.stationapi.api.util.Null;
 
-public class BlockListener {
+public class MCAltBlocks {
     @Entrypoint.Namespace
-    private static final Namespace MOD_ID = Null.get();
+    private static final Namespace NAMESPACE = Null.get();
 
     public static Block AshenPlanks;
     public static Block AshenLog;
 
     @EventListener
     public static void registerBlocks(BlockRegistryEvent evemt) {
-        AshenPlanks = new TemplateBlock(MOD_ID.id("ashen_planks"), Material.WOOD)
-                .setTranslationKey(MOD_ID.id("ashen_planks"))
+        AshenPlanks = new TemplateBlock(NAMESPACE.id("ashen_planks"), Material.WOOD)
+                .setTranslationKey(NAMESPACE.id("ashen_planks"))
                 .setSoundGroup(Block.WOOD_SOUND_GROUP)
                 .setHardness(2F)
                 .setResistance(3F);
-        AshenLog = new AshenLog(MOD_ID.id("ashen_log"), Material.WOOD)
-                .setTranslationKey(MOD_ID.id("ashen_log"))
+        AshenLog = new AshenLog(NAMESPACE.id("ashen_log"), Material.WOOD)
+                .setTranslationKey(NAMESPACE.id("ashen_log"))
                 .setSoundGroup(Block.WOOD_SOUND_GROUP)
                 .setHardness(2F)
                 .setResistance(2F);
