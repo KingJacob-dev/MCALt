@@ -9,7 +9,7 @@ public class ObsidianSword extends TemplateItem {
     public ObsidianSword(Identifier identifier) {
         super(identifier);
         this.setMaxDamage(MCAltToolMaterials.OBSIDIAN.getDurability());
-        this.weaponDamage = 9;
+        this.weaponDamage = MCAltToolMaterials.OBSIDIAN.getAttackDamage() + 5;
         this.maxCount = 1;
     }
 

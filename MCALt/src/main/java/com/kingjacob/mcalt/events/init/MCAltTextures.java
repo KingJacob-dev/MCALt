@@ -21,6 +21,10 @@ public class MCAltTextures {
     public static void registerTextures(TextureRegisterEvent event) {
         // ITEMS
         MCAltItems.ObsidianSword.setTexture(NAMESPACE.id("item/obsidian_sword"));
+        MCAltItems.ObsidianPickaxe.setTexture(NAMESPACE.id("item/obsidian_pickaxe"));
+        MCAltItems.ObsidianAxe.setTexture(NAMESPACE.id("item/obsidian_axe"));
+        MCAltItems.ObsidianShovel.setTexture(NAMESPACE.id("item/obsidian_shovel"));
+        MCAltItems.ObsidianHoe.setTexture(NAMESPACE.id("item/obsidian_hoe"));
 
         // BLOCKS
         ExpandableAtlas terrain = Atlases.getTerrain();

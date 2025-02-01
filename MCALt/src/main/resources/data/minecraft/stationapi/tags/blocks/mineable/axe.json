@@ -1,6 +1,7 @@
 {
   "values": [
     "mcalt:ashen_planks",
-    "mcalt:ashen_log"
+    "mcalt:ashen_log",
+    "minecraft:crafting_table"
   ]
 }
